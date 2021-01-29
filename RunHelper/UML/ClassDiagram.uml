@@ -25,8 +25,6 @@ class RegistrationList {
 Registration -- Participant
 Participant -- Club
 Registration -- AgeGroup
-Registration -- Club
-Registration -- Gender
 Gender -- Participant
 RegistrationList --* Registration
 

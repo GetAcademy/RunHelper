@@ -10,9 +10,6 @@ class Registration {
   result
 }
 
-class BirthYear {
-}
-
 class AgeGroup {
 }
 
@@ -22,10 +19,15 @@ class Gender {
 class Club {
 }
 
+class RegistrationList {
+}
+
 Registration -- Participant
-Participant -- BirthYear
 Participant -- Club
 Registration -- AgeGroup
+Registration -- Club
+Registration -- Gender
 Gender -- Participant
+RegistrationList --* Registration
 
 @enduml

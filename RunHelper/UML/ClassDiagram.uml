@@ -7,6 +7,7 @@ class Participant {
 
 class Registration {
   startNo
+  result
 }
 
 class BirthYear {
@@ -21,10 +22,10 @@ class Gender {
 class Club {
 }
 
-
-Registration - Participant
-Participant - BirthYear
-Participant - Club
-Registration - AgeGroup
+Registration -- Participant
+Participant -- BirthYear
+Participant -- Club
+Registration -- AgeGroup
+Gender -- Participant
 
 @enduml

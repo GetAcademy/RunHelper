@@ -19,13 +19,13 @@ class Gender {
 class Club {
 }
 
-class RegistrationList {
+class Run {
 }
 
 Registration -- Participant
 Participant -- Club
 Registration -- AgeGroup
 Gender -- Participant
-RegistrationList --* Registration
+Run --* Registration
 
 @enduml
